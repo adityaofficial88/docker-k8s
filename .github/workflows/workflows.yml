@@ -26,3 +26,6 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '11'
+
+    - name: setup java  
+      run: mvn clean package
