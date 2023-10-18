@@ -29,3 +29,6 @@ jobs:
 
     - name: setup java  
       run: mvn clean package
+      
+    - name: unit test
+      run: mvn test
