@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hsbg.hello</groupId>
   <artifactId>HelloWorld</artifactId>
-  <version>1.0.0</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
   <name>Hello World Webapplication</name>
   <description>Hello World Webapplication</description>  
