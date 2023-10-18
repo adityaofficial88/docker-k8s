@@ -27,8 +27,8 @@ jobs:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '11'
 
-    - name: setup java  
-      run: mvn clean package
+    - name: build code  
+      run: mvn clean install
       
     - name: unit test
       run: mvn test
